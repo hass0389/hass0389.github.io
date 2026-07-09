@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* heading banner image and title */
 header {
     background-image: url(/midterm/images/lone-starfish-wide.jpg);
     background-position: 50% 40%;
@@ -9,7 +10,7 @@ header {
     background-size: cover;
     height: 20rem;
 }
-
+/* all the headings */
 h1 {
     text-align: center;
     padding-top: 9rem;
@@ -45,6 +46,8 @@ h6 {
     text-align: right;
     margin: 3rem;
 }
+
+/* nav bar  */
 .nav-list li{
     display: inline-block;
 }
@@ -78,11 +81,13 @@ main {
     clear: left;
 }
 
+/* for image wrapping */
 .img2 {
     float: left;
     margin: 0 16px 8px 0;
 }
 
+/* contact form box and input labels */
 .formBox {
     border: 2px solid black;
     padding: 2rem;
