@@ -30,7 +30,7 @@ header {
 }
 
 .box {
-    background-image: url(images/main-banner.jpg);
+    background-image: url(../images/main-banner.jpg);
     background-size: cover;
 
 }
@@ -234,7 +234,7 @@ h1 {
 }
 
 .vision {
-    background-image: url(/images/vision.jpg);
+    background-image: url(../images/vision.jpg);
     background-position: center;
 }
 
