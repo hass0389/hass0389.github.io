@@ -234,7 +234,7 @@ h1 {
 }
 
 .vision {
-    background-image: url(images/vision.jpg);
+    background-image: url(/images/vision.jpg);
     background-position: center;
 }
 
