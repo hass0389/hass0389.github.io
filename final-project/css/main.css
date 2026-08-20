@@ -1,0 +1,554 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+@import url('https://googleapis.com');
+
+body {
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+    background: #222;
+    color: #c78c06;
+
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+li:nth-child(1) {
+    background-color: #c78c06;
+    color: #222;
+    padding-top: 8em;
+    background-image:image()
+}
+
+nav {
+    padding: 0.1em;
+    background-color: #222;
+}
+
+li {
+    margin: 1em;
+    text-align: center;
+}
+
+header {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 3rem;
+    color: white;
+}
+
+.welcomep {
+    padding-left: 3rem;
+    color: white;
+}
+
+.box {
+    background-image: url(/images/main-banner.jpg);
+    background-size: cover;
+
+}
+
+.box {
+    border-color: #222;
+    border:  solid #222;   
+}
+
+.aboutus {
+    padding: 1rem;
+    
+    
+
+}
+
+.aboutusinfo {
+    background-color: #ffe6ac;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.connect {
+    border: 3px;
+    background-color: #c78c06;
+    color: 222;
+    padding: 12px 24px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    width: fit-content;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.os {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.digital {
+    background-color: #ffe6ac;
+    margin-top: 1rem;
+}
+
+.dt {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.dp {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.dbutton {
+    border: 3px solid #222;
+    background-color: #222;
+    color: white;
+    padding: 12px 24px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    width: fit-content;
+}
+
+/* marketing section */
+.marketing {
+    background-color: #ffe6ac;
+    margin-top: 1rem;
+}
+
+
+.mark {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.mp {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.mbutton {
+    border: 3px solid #222;
+    background-color: #222;
+    color: white;
+    padding: 12px 24px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    width: fit-content;
+}
+
+/* video section */
+
+.video {
+    background-color: #ffe6ac;
+    margin-top: 1rem;
+}
+
+
+.videop {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.vp {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.vbutton {
+    border: 3px solid #222;
+    background-color: #222;
+    color: white;
+    padding: 12px 24px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    width: fit-content;
+}
+
+
+/* web section */
+
+.web {
+    background-color: #ffe6ac;
+    margin-top: 1rem;
+}
+
+
+.wd {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.wp {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.wbutton {
+    border: 3px solid #222;
+    background-color: #222;
+    color: white;
+    padding: 12px 24px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    width: fit-content;
+}
+
+/* print section */
+
+.print {
+    background-color: #ffe6ac;
+    margin-top: 1rem;
+}
+
+
+.printh {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.pp {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.pbutton {
+    border: 3px solid #222;
+    background-color: #222;
+    color: white;
+    padding: 12px 24px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    width: fit-content;
+}
+
+.vision {
+    background-image: url(/images/vision.jpg);
+    background-position: center;
+}
+
+.ov {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+.op {
+    color: white;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.obutton {
+
+    border: 3px solid #222;
+    background-color: #222;
+    color: white;
+    padding: 12px 24px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    width: fit-content;
+    border-color: #c78c06;
+    margin-top: 1rem;
+
+
+}
+
+.bob {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.ceo {
+    padding-left: 1rem;
+    font-weight: bold;
+    
+}
+
+.johnceo {
+    background-color: #ffe6ac;
+}
+
+.ceop {
+
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact {
+    font-size: 20px;
+}
+
+.send {
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+
+.fname {
+    display: block;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.form {
+    padding-bottom: 1rem;
+    
+}
+
+.tname {
+    width: 25rem;
+}
+
+.email {
+    display: block;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.msg {
+    display: block;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.sendm {
+    border: solid #0000;
+    background-color: #222;
+    color: #c78c06;
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+
+.hours {
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.table {
+    border: solid #222;
+}
+
+.days {
+    background-color: #ffe6ac;
+    border-right: solid #222;
+    padding: 1rem;
+    justify-content: center;
+    padding-right: rem;
+}
+
+.hourst {
+    background-color: #ffe6ac;
+}
+
+.footer {
+    background-color: #222;
+    color: #c78c06;
+}
+
+.footerp {
+    padding: 1rem;
+}
+
+.footerpp {
+    padding: 1rem;
+}
+
+@media screen and (min-width:760px) {
+
+    ol {
+        display: flex;
+        width: 600px;
+    }
+
+    .ourserv {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column: span 3;
+        padding: 1rem;
+    }
+
+    .web {
+        background-color: #ffe6ac;
+        margin-top: 1rem;
+        margin-right: 1rem;
+
+        }
+
+    .video {
+        background-color: #ffe6ac;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        
+        }
+
+    .digital {
+        background-color: #ffe6ac;
+        margin-top: 1rem;
+        margin-right: 1rem;
+                
+        }
+    }
+
+
